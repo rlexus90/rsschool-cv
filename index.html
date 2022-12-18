@@ -3,8 +3,7 @@
 
 <head>
 	<title>CV</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-	<meta http-equiv="content type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=1.0">
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="./css/style.css">
 </head>
@@ -72,10 +71,10 @@
 					<pre>
 function doneOrNot(board) {
 const row = '0123456789';
-for (let i = 0; i < 9; i++) {
+for (let i = 0; i &lt 9; i++) {
 	let rowg = row;
 	let rowv = row;
-	for (let j = 0; j < 9; j++) {
+	for (let j = 0; j &lt 9; j++) {
 	rowg = rowg.replace(board[i][j], '');
 	rowv = rowv.replace(board[j][i], '');
 	}
@@ -84,9 +83,9 @@ for (let i = 0; i < 9; i++) {
 let sq1 = '123456789';
 let sq2 = '123456789';
 let sq3 = '123456789';
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i &lt 3; i++) {
 
-	for (let j = 0; j < 3; j++) {
+	for (let j = 0; j &lt 3; j++) {
 	sq1 = sq1.replace(board[i][j], '');
 	sq2 = sq2.replace(board[i + 3][j + 3], '');
 	sq3 = sq3.replace(board[i + 6][j + 6], '');
