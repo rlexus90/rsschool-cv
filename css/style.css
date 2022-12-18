@@ -1,0 +1,148 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header .container {
+  background-color: #A9A9A9;
+  padding: 10px 0;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav__list a {
+  padding: 0 10px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+
+main .container {
+  display: flex;
+}
+
+h2::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 35px;
+  background-color: #f2c100;
+}
+
+h2 {
+  position: relative;
+  background-color: #A9A9A9;
+  line-height: 35px;
+  padding: 0 0 0 30px;
+}
+
+.colum-left {
+  flex: 1 0 33.33%;
+  background-color: #343945;
+  color: #ffffff;
+  line-height: 35px;
+}
+.colum-left p {
+  margin: 0 20px;
+}
+
+.colum-right {
+  flex: 1 1 auto;
+  line-height: 25px;
+}
+.colum-right p {
+  margin: 0 20px;
+}
+
+.colum span {
+  font-weight: 600;
+}
+.colum__photo {
+  margin: 0 auto;
+}
+.colum__photo img {
+  width: 100%;
+}
+.colum__contacts a {
+  color: #ffffff;
+}
+.colum__language:last-child {
+  padding: 0 0 40px 0;
+}
+.colum__language p {
+  line-height: 25px;
+}
+.colum__name {
+  padding: 50px 10px 50px 30px;
+}
+.colum__name h1 {
+  font-size: 50px;
+}
+.colum__name p {
+  margin: 0 10px;
+  font-weight: 600;
+}
+.colum__code pre {
+  margin: 0 40px 0 60px;
+  padding: 20px;
+  background-color: #D0D0D0;
+  line-height: 15px;
+}
+.colum__work a {
+  color: #000;
+}
+
+.footer__container {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #404040;
+}
+.footer__git {
+  margin: 0 40px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+}
+.footer__git a {
+  color: #ffffff;
+}
+.footer__git img {
+  height: 50px;
+  padding: 0 20px 0 0;
+}
+.footer__year {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+.footer__rss {
+  margin: 0 40px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+}
+.footer__rss img {
+  height: 50px;
+}
