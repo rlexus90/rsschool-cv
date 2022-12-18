@@ -83,6 +83,9 @@ h2 {
 .colum__contacts a {
   color: #ffffff;
 }
+.colum__education {
+  line-height: 25px;
+}
 .colum__language:last-child {
   padding: 0 0 40px 0;
 }
