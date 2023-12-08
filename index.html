@@ -1,132 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>CV</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=1.0"
+    />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-	<title>CV</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=1.0">
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="./css/style.css">
-</head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul class="nav__list">
+            <li class="nav__contacts"><a href="#contacts">Contacts </a></li>
+            <li class="nav__about-myself">
+              <a href="#about-myself">About myself </a>
+            </li>
+            <li class="nav__skills"><a href="#skills">Skills </a></li>
+            <li class="nav__education"><a href="#education">Education </a></li>
+            <li class="nav__language"><a href="#language">Language </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<body>
-	<header>
-		<div class="container">
-			<nav>
-				<ul class="nav__list">
-					<li class="nav__contacts"><a href="#contacts">Contacts </a></li>
-					<li class="nav__about-myself"><a href="#about-myself">About myself </a></li>
-					<li class="nav__code"><a href="#code">Code example </a></li>
-					<li class="nav__skills"><a href="#skills">Skills </a></li>
-					<li class="nav__education"><a href="#education">Education </a></li>
-					<li class="nav__language"><a href="#language">Language </a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+    <main>
+      <div class="container">
+        <div class="colum colum-left">
+          <div class="colum__photo">
+            <img src="./Photo.jpg" alt="My Photo" />
+          </div>
+          <div class="colum__contacts" id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+              <li class="discord">
+                <span>Telegram:</span> <br />
+                @oleksii
+              </li>
+              <li class="phone">
+                <span>Phone:</span> <br />
+                +380669166194
+              </li>
+              <li class="email">
+                <span>Email:</span> <br /><a href="mailto:rlexus90@gmail.com"
+                  >rlexus90@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="colum__education" id="education">
+            <h2>Education</h2>
+            <p>
+              <span>2012</span> <br />
+              Sevastopol national university of nuclear energy and industry.
+            </p>
+            <p>
+              <span>2023</span> <br />
+              RS School Courses
+              <a
+                href="https://app.rs.school/cv/5f68db3f-2ca8-4e87-b106-f87e21711381"
+                target="_blank"
+                rel="noopener noreferrer"
+                >(RSS cv)</a
+              >
+            </p>
+          </div>
+          <div class="colum__language" id="language">
+            <h2>My language</h2>
+            <p><span>Ukrainian:</span> Native</p>
+            <p><span>English:</span> level Pre-Intermediate (A2)</p>
+          </div>
+        </div>
+        <div class="colum colum-right">
+          <div class="colum__name">
+            <h1>Oleksij RODIN</h1>
+            <p>Front-End developer</p>
+          </div>
+          <div class="colum__about" id="about-myself">
+            <h2>About myself</h2>
+            <p>
+              Hello!<br />My name is Oleksii Rodin and I am developer beginner.
+              Despite the fact that I have been studying programming for less
+              than a year - I have already mastered development in JavaScript,
+              TypeScript. I have skills in SPA and website development. I have
+              also gained skills in Git, Webpack, Jest, REST API, Commercetools,
+              and continue to learn new technologies that I actively use in my
+              work and study. I also want to improve and acquire new skills
+              through training and future work in IT companies. <br />In
+              addition, I have a solid experience in nuclear energetics and some
+              experience in the automation of industrial processes.',
+            </p>
+          </div>
+          <div class="colum__skills" id="skills">
+            <h2>Skills</h2>
+            <ul class="colum__skills-list">
+              <li>HTML/HTML5, CSS3/SCSS</li>
+              <li>JavaScript/TypeScript</li>
+              <li>React</li>
+              <li>Next JS</li>
+              <li>NodeJs</li>
+              <li>Angular</li>
+              <li>REST</li>
+              <li>Git</li>
+              <li>Web pack/Vite</li>
+              <li>Jest/Vitest</li>
+              <li>Figma/Photoshop</li>
+            </ul>
+          </div>
+          <div class="colum__work">
+            <h2>My projects</h2>
+            <p>Use framework</p>
+            <div class="work-flex">
+              <a
+                href="https://rlexus90.github.io/RSS-Virtual-Keyboard/"
+                target="_blank"
+                ><img src="./react-app.png" alt="react-app"
+              /></a>
+              <a
+                href="https://redux-rtk.d2ocre95uunj5.amplifyapp.com/?page=1"
+                target="_blank"
+                ><img src="./form.png" alt="form"
+              /></a>
+            </div>
+            <p>Vanila JavaScript</p>
+            <div class="work-flex">
+              <a href="https://rlexus90.github.io/shelter/main/" target="_blank"
+                ><img src="./shelter.png" alt="shelter"
+              /></a>
+              <a
+                href="https://develop.d39v5iy4wgtkip.amplifyapp.com/"
+                target="_blank"
+                ><img src="./coffe-shop.png" alt="coffe-shop"
+              /></a>
+              <a href="https://github.com/rlexus90/async-race" target="_blank"
+                ><img src="./async-race.png" alt="async-race"
+              /></a>
+              <a href="https://rlexus90.github.io/rs-css/" target="_blank"
+                ><img src="./rs-css.png" alt="rs-css"
+              /></a>
+              <a href="https://rlexus90.github.io/Minesweeper/" target="_blank"
+                ><img src="./Minesweeper.png" alt="Minesweeper"
+              /></a>
+              <a
+                href="https://rlexus90.github.io/RSS-Virtual-Keyboard/"
+                target="_blank"
+                ><img
+                  src="./RSS-Virtual-Keyboard.png"
+                  alt="RSS-Virtual-Keyboard"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
-	<main>
-		<div class="container">
-			<div class="colum colum-left">
-				<div class="colum__photo">
-					<img src="./Photo.jpg" alt="My Photo">
-				</div>
-				<div class="colum__contacts" id="contacts">
-					<h2>Contacts</h2>
-					<ul>
-
-						<li class="discord">
-							<span>Discord:</span> <br> oleksij (@rlexus90)#7382
-						</li>
-						<li class="phone"><span>Phone:</span> <br> +380669166194</li>
-						<li class="email"><span>Email:</span> <br><a
-								href="mailto:rlexus90@gmail.com">rlexus90@gmail.com</a>
-						</li>
-					</ul>
-				</div>
-				<div class="colum__education" id="education">
-					<h2>Education</h2>
-					<p><span>2012</span> <br> Sevastopol national university of nuclear energy and industry.</p>
-					<p><span>now</span> <br> Self-study from open resources.</p>
-				</div>
-				<div class="colum__language" id="language">
-					<h2>My language</h2>
-					<p><span>Ukrainian:</span> Native </p>
-					<p><span>English:</span> level Pre-Intermediate (A2).</p>
-				</div>
-			</div>
-			<div class="colum colum-right">
-				<div class="colum__name">
-					<h1>Oleksij RODIN</h1>
-					<p>Front-End developer student</p>
-				</div>
-				<div class="colum__about" id="about-myself">
-					<h2>About myself</h2>
-					<p>I want to change my profession, so I started studying JavaScript. Studied independently. Now
-						joined the study in RSSchool.</p>
-				</div>
-				<div class="colum__work">
-					<h2>My projects</h2>
-					<p><a href="https://rlexus90.github.io/rlexus90/">Adaptive layout "Bicycle shop"</a></p>
-				</div>
-				<div class="colum__skills" id="skills">
-					<h2>Skills</h2>
-					<ul class="colum__skills-list">
-						<li>HTML/HTML5, CSS3/SCSS, BEM</li>
-						<li>JavaScript</li>
-						<li>Git</li>
-					</ul>
-				</div>
-
-				<div class="colum__code" id="code">
-					<h2>Code example</h2>
-					<pre>
-<code>
-	function doneOrNot(board) {
-	const row = '0123456789';
-	for (let i = 0; i &lt 9; i++) {
-		let rowg = row;
-		let rowv = row;
-		for (let j = 0; j &lt 9; j++) {
-		rowg = rowg.replace(board[i][j], '');
-		rowv = rowv.replace(board[j][i], '');
-		}
-		if (rowg.length > 1 || rowv.length > 1) { return "Try again!" }
-	}
-	let sq1 = '123456789';
-	let sq2 = '123456789';
-	let sq3 = '123456789';
-	for (let i = 0; i &lt 3; i++) {
-	
-		for (let j = 0; j &lt 3; j++) {
-		sq1 = sq1.replace(board[i][j], '');
-		sq2 = sq2.replace(board[i + 3][j + 3], '');
-		sq3 = sq3.replace(board[i + 6][j + 6], '');
-		}
-	}
-	if (sq1.length > 0 || sq2.length > 0 || sq3.length > 0) { return "Try again!" }
-		return "Finished!"
-	}
-</code>
-				</pre>
-				</div>
-
-			</div>
-		</div>
-	</main>
-
-	<footer>
-		<div class="container footer__container">
-			<div class="footer__git">
-				<img src="./github.svg" alt="GitHub" class="icon">
-				<a href="https://github.com/rlexus90" class="my-git">My GitHub</a>
-			</div>
-			<div class="footer__year">2022</div>
-			<div class="footer__rss">
-				<a href="https://rs.school/js-stage0/">
-					<img src="./rs_school.svg" alt="RSSchool logo"> </a>
-			</div>
-		</div>
-	</footer>
-</body>
-
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__git">
+          <img src="./github.svg" alt="GitHub" class="icon" />
+          <a href="https://github.com/rlexus90" class="my-git">My GitHub</a>
+        </div>
+        <div class="footer__year">2023</div>
+        <div class="footer__rss">
+          <a href="https://rs.school/js-stage0/">
+            <img src="./rs_school.svg" alt="RSSchool logo" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
